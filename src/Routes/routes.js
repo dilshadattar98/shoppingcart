@@ -14,8 +14,6 @@ const RootRouter = () => {
                         <Route path="/" element={<Navigate to="Products" />} />
                         <Route exact path="/Products" element={<ProductLists></ProductLists>} />
                         <Route exact path="/my-cart" element={<AddToCart></AddToCart>} />
-                        
-                        
                         <Route exact path="/test2" element={<ProductLists></ProductLists>} />
                         <Route exact path="/test3" element={<ProductLists></ProductLists>} />
                     </Routes>
